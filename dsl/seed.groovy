@@ -34,7 +34,7 @@ def createTestJob(jobName, repoUrl) {
 }
 
 def buildPipelineJobs() {
-    def repo = "https://github.com/sagardsouza-90/jenkins-microservices"
+    def repo = "https://github.com/sagardsouza-90/"
     def repoUrl = repo + jobName + ".git"
     def deployName = jobName + "_deploy"
     def testName = jobName + "_test"
